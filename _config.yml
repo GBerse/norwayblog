@@ -1,10 +1,22 @@
-name: "Prof. Dr. em. Ludwig Philipp von Thurn und Taxis' Homepage"
-description: "Last update: 31-12-1995"
+name: "Undrained in Norway"
+description: "Last update: 10-26-2021"
 author:
-  name: Ludwig Philipp von Thurn und Taxis
+  name: dirtlover
 
 url: '' 
 baseurl: ''
+
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 # Set this to "#c0c0c0" for the 90s effect
 # This color is inspired by Bjarne Stroustrup's homepage

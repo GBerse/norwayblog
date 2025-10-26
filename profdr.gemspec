@@ -2,14 +2,14 @@
 # based off <https://github.com/jekyll/minima/blob/master/minima.gemspec>
 
 Gem::Specification.new do |spec|
-  spec.name          = "profdr"
+  spec.name          = "gkb"
   spec.version       = "0.0.3"
-  spec.authors       = ["chainsawriot"]
-  spec.email         = ["chainsawtiney@gmail.com"]
+  spec.authors       = ["gkb"]
+  spec.email         = ["undrained@yahoo.com"]
 
-  spec.summary       = "A Jekyll theme for Prof Dr"
-  spec.homepage      = "https://github.com/chainsawriot/profdr"
-  spec.license       = "GPL-2.0-or-later"
+  spec.summary       = "A blog about a geotechnical engineer in Norway"
+  spec.homepage      = "https://github.com/GBerse/norwayblog"
+  spec.license       = "GPL-2.0"
 
   spec.metadata["plugin_type"] = "theme"
 
@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_runtime_dependency "jekyll", ">= 3.5", "< 5.0"
-  spec.add_development_dependency "bundler", "~> 2.1.4"
+  spec.add_development_dependency "bundler", ">= 2.1.4"
 end
